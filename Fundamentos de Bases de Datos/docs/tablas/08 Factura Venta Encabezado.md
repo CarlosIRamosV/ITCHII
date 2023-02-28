@@ -56,6 +56,7 @@ CREATE TABLE `empresax`.`factvtae`
 | 3      | 2023-01-03 | 3000.00 | E        | 3      |
 | 4      | 2023-01-04 | 4000.00 | E        | 4      |
 | 5      | 2023-01-05 | 5000.00 | E        | 5      |
+
 [ver csv](./csv/08%20Factura%20Venta%20Encabezado.csv)
 
 <p align="center">

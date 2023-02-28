@@ -48,6 +48,7 @@ CREATE TABLE `empresax`.`clientes`
 | 003 | Cliente 3   | RFC3 | Direccion 3 | 123456789 | Cliente003@gmail.com |
 | 004 | Cliente 4   | RFC4 | Direccion 4 | 123456789 | Cliente004@gmail.com |
 | 005 | Cliente 5   | RFC5 | Direccion 5 | 123456789 | Cliente005@gmail.com |
+
 [ver csv](./csv/03%20Clientes.csv)
 
 <p align="center">

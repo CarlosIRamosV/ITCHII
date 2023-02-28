@@ -53,6 +53,7 @@ CREATE TABLE `empresax`.`proveedores`
 | 003 | Proveedor 3 | RFC3 | Direccion 3 | 123456789 | Proveedor3@gmail.com | 3000  |
 | 004 | Proveedor 4 | RFC4 | Direccion 4 | 123456789 | Proveedor4@gmail.com | 4000  |
 | 005 | Proveedor 5 | RFC5 | Direccion 5 | 123456789 | Proveedor5@gmail.com | 5000  |
+
 [ver csv](./csv/04%20Proveedores.csv)
 
 <p align="center">

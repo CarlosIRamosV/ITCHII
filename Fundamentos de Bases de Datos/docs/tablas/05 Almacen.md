@@ -68,6 +68,7 @@ CREATE TABLE `empresax`.`almacen`
 | 002    | E       | 2023-02-21 | 002    | 10       | 100.00 |
 | 003    | E       | 2023-02-21 | 003    | 10       | 100.00 |
 | 004    | E       | 2023-02-21 | 004    | 10       | 100.00 |
+
 [ver csv](./csv/05%20Almacen.csv)
 
 <p align="center">

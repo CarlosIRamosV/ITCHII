@@ -67,6 +67,7 @@ CREATE TABLE `empresax`.`factvtad`
 | 5      | 1      | 10       | 100.00 |
 | 5      | 2      | 20       | 200.00 |
 | 5      | 3      | 30       | 300.00 |
+
 [ver csv](./csv/09%20Factura%20Venta%20Detalle.csv)
 
 <p align="center">

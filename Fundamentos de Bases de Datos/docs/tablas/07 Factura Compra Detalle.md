@@ -61,7 +61,9 @@ CREATE TABLE `empresax`.`factcprad`
 | 3      | 1      | 10       | 100.00 |
 | 3      | 2      | 20       | 200.00 |
 | 3      | 3      | 30       | 300.00 |
+
 [ver csv](./csv/07%20Factura%20Compra%20Detalle.csv)
+
 <p align="center">
     <a href="./06 Factura Compra Encabezado.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |

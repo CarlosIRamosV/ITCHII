@@ -47,6 +47,7 @@ CREATE TABLE `empresaX`.`productos`
 | 008 | Producto 8   | 800.00  | 80    | NULL  |
 | 009 | Producto 9   | 900.00  | 90    | NULL  |
 | 010 | Producto 10  | 1000.00 | 100   | NULL  |
+
 [ver csv](./csv/02%20Productos.csv)
 
 <p align="center">
