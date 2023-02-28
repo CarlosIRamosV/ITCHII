@@ -1,0 +1,6 @@
+id,razonsocial,rfc,direccion,telefono,email,saldo
+1,proveedor1,rfc1,dir1,1234567890,proveedor1@gmail.com,0
+2,proveedor2,rfc2,dir2,1234567890,proveedor2@gmail.com,0
+3,proveedor3,rfc3,dir3,1234567890,proveedor3@gmail.com,0
+4,proveedor4,rfc4,dir4,1234567890,proveedor4@gmail.com,0
+5,proveedor5,rfc5,dir5,1234567890,proveedor5,@gmail.com,0
