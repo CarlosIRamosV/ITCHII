@@ -1,1 +1,1 @@
-[Tablas](./tablas/01 Getting Started.md)
+[Tablas](./tablas/01%20Getting%20Started.md)

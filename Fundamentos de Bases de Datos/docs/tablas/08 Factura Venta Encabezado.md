@@ -25,8 +25,8 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [clientes](03%20Clientes.md)
-    * Campo foránea: [id](03%20Clientes.md#id)
+    * Tabla foránea: [clientes](./03%20Clientes.md)
+    * Campo foránea: [id](./03%20Clientes.md#id)
 
 ## Creación de la tabla:
 ``` sql

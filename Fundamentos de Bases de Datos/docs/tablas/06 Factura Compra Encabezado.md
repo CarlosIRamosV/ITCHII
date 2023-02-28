@@ -20,8 +20,8 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [proveedores](04%20Proveedores.md)
-    * Campo foránea: [id](04%20Proveedores.md#id)
+    * Tabla foránea: [proveedores](./04%20Proveedores.md)
+    * Campo foránea: [id](./04%20Proveedores.md#id)
 
 ## Creación de la tabla:
 ``` sql

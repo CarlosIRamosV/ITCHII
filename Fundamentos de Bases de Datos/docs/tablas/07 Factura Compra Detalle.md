@@ -5,16 +5,16 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [factcprae](06%20Factura%20Compra%20Encabezado.mdo.md)
-    * Campo foránea: [numfac](06%20Factura%20Compra%20Encabezado.mdo.md#numfac)
+    * Tabla foránea: [factcprae](./06%20Factura%20Compra%20Encabezado.md)
+    * Campo foránea: [numfac](./06%20Factura%20Compra%20Encabezado.md#numfac)
 
 ### idprod
 * Tipo de dato: int
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [productos](02%20Productos.md)
-    * Campo foránea: [id](02%20Productos.md#id)
+    * Tabla foránea: [productos](./02%20Productos.md)
+    * Campo foránea: [id](./02%20Productos.md#id)
 
 ### cantidad
 * Tipo de dato: int

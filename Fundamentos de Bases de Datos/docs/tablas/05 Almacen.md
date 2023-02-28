@@ -5,8 +5,8 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [factura compra encabezado](06%20Factura%20Compra%20Encabezado.mdo.md)
-    * Campo foráneo: [numfac](06%20Factura%20Compra%20Encabezado.mdo.md#numfac)
+    * Tabla foránea: [factura compra encabezado](./06%20Factura%20Compra%20Encabezado.md)
+    * Campo foráneo: [numfac](./06%20Factura%20Compra%20Encabezado.md#numfac)
 
 ##### tipomov
 * Tipo de dato: varchar
@@ -23,8 +23,8 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 * Llave foránea: si
-    * Tabla foránea: [productos](02%20Productos.md)
-    * Campo foráneo: [id](02%20Productos.md#id)
+    * Tabla foránea: [productos](./02%20Productos.md)
+    * Campo foráneo: [id](./02%20Productos.md#id)
 
 ##### cantidad
 * Tipo de dato: int
@@ -59,7 +59,7 @@ CREATE TABLE `empresax`.`almacen`
             ON UPDATE NO ACTION
 );
 ```
-[ver sql](../sql/05 Almacen.sql)
+[ver sql](../sql/05%20Almacen.sql)
 
 ### Contenido de la tabla:
 | numfac | tipomov | fecha      | idprod | cantidad | precio |
@@ -68,7 +68,7 @@ CREATE TABLE `empresax`.`almacen`
 | 002    | E       | 2023-02-21 | 002    | 10       | 100.00 |
 | 003    | E       | 2023-02-21 | 003    | 10       | 100.00 |
 | 004    | E       | 2023-02-21 | 004    | 10       | 100.00 |
-[ver datos](../csv/05 Almacen.csv)
+[ver datos](../csv/05%20Almacen.csv)
 
 <p align="center">
     <a href="./04 Proveedores.md">Regresar</a> |
