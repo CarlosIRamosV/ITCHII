@@ -41,10 +41,17 @@ CREATE TABLE `empresax`.`factcprae`
             ON UPDATE NO ACTION
 );
 ```
-## Ejemplo:
-``` sql
-INSERT INTO `empresax`.`factcprae` (`numfac`, `fecha`, `total`, `tipopago`, `cveprov`) VALUES ('1', '2023-02-20', '1000.00', 'E', '1');
-```
+[ver sql](./sql/06%20Factura%20Compra%20Encabezado.sql)
+
+## Contenido de la tabla:
+| numfac | fecha      | total   | tipopago | cveprov |
+|--------|------------|---------|----------|---------|
+| 1      | 2023-02-20 | 1000.00 | E        | 1       |
+| 2      | 2023-02-20 | 2000.00 | E        | 2       |
+| 3      | 2023-02-20 | 3000.00 | E        | 3       |
+| 4      | 2023-02-20 | 4000.00 | E        | 4       |
+| 5      | 2023-02-20 | 5000.00 | E        | 5       |
+[ver csv](./csv/06%20Factura%20Compra%20Encabezado.csv)
 
 <p align="center">
     <a href="./05 Almacen.md">Regresar</a> |

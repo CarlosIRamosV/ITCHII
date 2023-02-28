@@ -47,13 +47,21 @@ CREATE TABLE `empresax`.`factcprad`
             ON UPDATE NO ACTION
 );
 ```
+[ver sql](./sql/07%20Factura%20Compra%20Detalle.sql)
 
-## Ejemplo:
-``` sql
-INSERT INTO `empresax`.`factcprad` (`numfac`, `idprod`, `cantidad`, `precio`) VALUES ('1', '1', '10', '100.00');
-INSERT INTO `empresax`.`factcprad` (`numfac`, `idprod`, `cantidad`, `precio`) VALUES ('1', '2', '20', '50.00');
-```
-
+## Contenido de la tabla:
+| numfac | idprod | cantidad | precio |
+|--------|--------|----------|--------|
+| 1      | 1      | 10       | 100.00 |
+| 1      | 2      | 20       | 200.00 |
+| 1      | 3      | 30       | 300.00 |
+| 2      | 1      | 10       | 100.00 |
+| 2      | 2      | 20       | 200.00 |
+| 2      | 3      | 30       | 300.00 |
+| 3      | 1      | 10       | 100.00 |
+| 3      | 2      | 20       | 200.00 |
+| 3      | 3      | 30       | 300.00 |
+[ver csv](./csv/07%20Factura%20Compra%20Detalle.csv)
 <p align="center">
     <a href="./06 Factura Compra Encabezado.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |

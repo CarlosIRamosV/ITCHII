@@ -32,20 +32,22 @@ CREATE TABLE `empresaX`.`productos`
     PRIMARY KEY (`id`)
 );
 ```
+[ver sql](./sql/05%20Almacen.sql)
 
-## Ejemplo:
-``` sql
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('001', 'Producto 1', '100.00', '10', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('002', 'Producto 2', '200.00', '20', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('003', 'Producto 3', '300.00', '30', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('004', 'Producto 4', '400.00', '40', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('005', 'Producto 5', '500.00', '50', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('006', 'Producto 6', '600.00', '60', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('007', 'Producto 7', '700.00', '70', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('008', 'Producto 8', '800.00', '80', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('009', 'Producto 9', '900.00', '90', NULL);
-INSERT INTO `empresax`.`productos` (`id`, `nombre`, `precio`, `stock`, `foto`) VALUES ('010', 'Producto 10', '1000.00', '100', NULL);
-```
+## Contenido de la tabla:   
+| id  | nombre       | precio  | stock | foto  |
+|-----|--------------|---------|-------|-------|
+| 001 | Producto 1   | 100.00  | 10    | NULL  |
+| 002 | Producto 2   | 200.00  | 20    | NULL  |
+| 003 | Producto 3   | 300.00  | 30    | NULL  |
+| 004 | Producto 4   | 400.00  | 40    | NULL  |
+| 005 | Producto 5   | 500.00  | 50    | NULL  |
+| 006 | Producto 6   | 600.00  | 60    | NULL  |
+| 007 | Producto 7   | 700.00  | 70    | NULL  |
+| 008 | Producto 8   | 800.00  | 80    | NULL  |
+| 009 | Producto 9   | 900.00  | 90    | NULL  |
+| 010 | Producto 10  | 1000.00 | 100   | NULL  |
+[ver csv](./csv/02%20Productos.csv)
 
 <p align="center">
     <a href="./01 Getting Started.md">Regresar</a> |

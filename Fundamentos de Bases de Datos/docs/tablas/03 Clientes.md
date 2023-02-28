@@ -38,11 +38,18 @@ CREATE TABLE `empresax`.`clientes`
     PRIMARY KEY (`id`)
 );
 ```
+[ver sql](./sql/03%20Clientes.sql)
 
-## Ejemplo:
-``` sql
-INSERT INTO `empresax`.`clientes` (`id`, `razonsocial`, `rfc`, `direccion`, `telefono`, `email`) VALUES ('001', 'Cliente 1', 'RFC1', 'Direccion 1', '123456789', 'cliente1@gmail.com');
-```
+## Contenido de la tabla:
+| id  | razonsocial | rfc  | direccion   | telefono  | email                |
+|-----|-------------|------|-------------|-----------|----------------------|
+| 001 | Cliente 1   | RFC1 | Direccion 1 | 123456789 | Cliente001@gmail.com |
+| 002 | Cliente 2   | RFC2 | Direccion 2 | 123456789 | Cliente002@gmail.com |
+| 003 | Cliente 3   | RFC3 | Direccion 3 | 123456789 | Cliente003@gmail.com |
+| 004 | Cliente 4   | RFC4 | Direccion 4 | 123456789 | Cliente004@gmail.com |
+| 005 | Cliente 5   | RFC5 | Direccion 5 | 123456789 | Cliente005@gmail.com |
+[ver csv](./csv/03%20Clientes.csv)
+
 <p align="center">
     <a href="./02 Productos.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |

@@ -46,11 +46,17 @@ CREATE TABLE `empresax`.`factvtae`
             ON UPDATE NO ACTION
 );
 ```
+[ver sql](./sql/08%20Factura%20Venta%20Encabezado.sql)
 
-## Ejemplo:
-``` sql
-INSERT INTO `empresax`.`factvtae` (`numfac`, `fecha`, `total`, `tipopago`, `cvecli`) VALUES ('001', '2023-02-20', '1000.00', 'E', '001');
-```
+## Contenido de la tabla:
+| numfac | fecha      | total   | tipopago | cvecli |
+|--------|------------|---------|----------|--------|
+| 1      | 2023-01-01 | 1000.00 | E        | 1      |
+| 2      | 2023-01-02 | 2000.00 | E        | 2      |
+| 3      | 2023-01-03 | 3000.00 | E        | 3      |
+| 4      | 2023-01-04 | 4000.00 | E        | 4      |
+| 5      | 2023-01-05 | 5000.00 | E        | 5      |
+[ver csv](./csv/08%20Factura%20Venta%20Encabezado.csv)
 
 <p align="center">
     <a href="./07 Factura Compra Detalle.md">Regresar</a> |
