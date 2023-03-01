@@ -1,11 +1,11 @@
-id,nombre,precio,stock,foto
-001,Producto 1,25,10,null
-002,Producto 2,30,20,null
-003,Producto 3,35,30,null
-004,Producto 4,40,40,null
-005,Producto 5,45,50,null
-006,Producto 6,50,60,null
-007,Producto 7,55,70,null
-008,Producto 8,60,80,null
-009,Producto 9,70,90,null
-009,Producto 10,75,100,null
+id,descripcion,exixtencia,costo,foto
+001,Producto 1,10,10.00,null
+002,Producto 2,20,20.00,null
+003,Producto 3,30,30.00,null
+004,Producto 4,40,40.00,null
+005,Producto 5,50,50.00,null
+006,Producto 6,60,60.00,null
+007,Producto 7,70,70.00,null
+008,Producto 8,80,80.00,null
+009,Producto 9,90,90.00,null
+009,Producto 10,100,100.00,null

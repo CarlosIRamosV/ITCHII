@@ -5,48 +5,48 @@
 * Tamaño: 3 dígitos
 * Llave primaria: si
 
-### nombre
+### descripcion
 * Tipo de dato: varchar
-* Tamaño: 50 caracteres
+* Tamaño: 70 caracteres
 
-### precio
-* Tipo de dato: decimal
-* Tamaño: 7 dígitos, 2 decimales
-
-### stock
+### exixtencia
 * Tipo de dato: int
 * Tamaño: 5 dígitos
+
+### costo
+* Tipo de dato: decimal
+* Tamaño: 7 dígitos, 2 decimales
 
 ### foto
 * Tipo de dato: blob
 
 ## Creación de la tabla:
 ``` sql
-CREATE TABLE `empresaX`.`productos`
+CREATE TABLE `empresax`.`productos`
 (
-    `id`     INT(3)        NOT NULL AUTO_INCREMENT,
-    `nombre` VARCHAR(50)   NULL,
-    `precio` DECIMAL(7, 2) NULL,
-    `stock`  INT(5)        NULL,
-    `foto`   BLOB          NULL,
+    `id`          INT(3) NOT NULL AUTO_INCREMENT,
+    `descripcion` VARCHAR(50) NULL,
+    `exixtencia`  INT(5) NULL,
+    `costo`       DECIMAL(7, 2) NULL,
+    `foto`        BLOB NULL,
     PRIMARY KEY (`id`)
 );
 ```
 [ver sql](./sql/05%20Almacen.sql)
 
 ## Contenido de la tabla:   
-| id  | nombre       | precio  | stock | foto  |
-|-----|--------------|---------|-------|-------|
-| 001 | Producto 1   | 100.00  | 10    | NULL  |
-| 002 | Producto 2   | 200.00  | 20    | NULL  |
-| 003 | Producto 3   | 300.00  | 30    | NULL  |
-| 004 | Producto 4   | 400.00  | 40    | NULL  |
-| 005 | Producto 5   | 500.00  | 50    | NULL  |
-| 006 | Producto 6   | 600.00  | 60    | NULL  |
-| 007 | Producto 7   | 700.00  | 70    | NULL  |
-| 008 | Producto 8   | 800.00  | 80    | NULL  |
-| 009 | Producto 9   | 900.00  | 90    | NULL  |
-| 010 | Producto 10  | 1000.00 | 100   | NULL  |
+| id  | descripcion  | exixtencia | costo  | foto  |
+|-----|--------------|------------|--------|-------|
+| 001 | Producto 1   | 10         | 10.00  | NULL  |
+| 002 | Producto 2   | 20         | 20.00  | NULL  |
+| 003 | Producto 3   | 30         | 30.00  | NULL  |
+| 004 | Producto 4   | 40         | 40.00  | NULL  |
+| 005 | Producto 5   | 50         | 50.00  | NULL  |
+| 006 | Producto 6   | 60         | 60.00  | NULL  |
+| 007 | Producto 7   | 70         | 70.00  | NULL  |
+| 008 | Producto 8   | 80         | 80.00  | NULL  |
+| 009 | Producto 9   | 90         | 90.00  | NULL  |
+| 010 | Producto 10  | 100        | 100.00 | NULL  |
 
 [ver csv](./csv/02%20Productos.csv)
 
