@@ -4,7 +4,7 @@ CREATE TABLE `empresax`.`factvtae`
     `fecha`    DATE          NULL,
     `total`    DECIMAL(7, 2) NULL,
     `tipopago` VARCHAR(1)    NULL,
-    `cvecli`   INT(3)        NULL,
+    `cvecli`   INT(3)        NOT NULL,
     PRIMARY KEY (`numfac`, `cvecli`),
     INDEX `cveCli_idx` (`cvecli` ASC) VISIBLE,
     CONSTRAINT `cveCliFactVtaE`

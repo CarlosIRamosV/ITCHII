@@ -35,23 +35,23 @@ CREATE TABLE `empresax`.`productos`
 [ver sql](./sql/05%20Almacen.sql)
 
 ## Contenido de la tabla:   
-| id  | descripcion  | exixtencia | costo  | foto  |
-|-----|--------------|------------|--------|-------|
-| 001 | Producto 1   | 10         | 10.00  | NULL  |
-| 002 | Producto 2   | 20         | 20.00  | NULL  |
-| 003 | Producto 3   | 30         | 30.00  | NULL  |
-| 004 | Producto 4   | 40         | 40.00  | NULL  |
-| 005 | Producto 5   | 50         | 50.00  | NULL  |
-| 006 | Producto 6   | 60         | 60.00  | NULL  |
-| 007 | Producto 7   | 70         | 70.00  | NULL  |
-| 008 | Producto 8   | 80         | 80.00  | NULL  |
-| 009 | Producto 9   | 90         | 90.00  | NULL  |
-| 010 | Producto 10  | 100        | 100.00 | NULL  |
+| id  | descripcion | exixtencia | costo  | foto |
+|-----|-------------|------------|--------|------|
+| 001 | Producto 1  | 10         | 10.00  |      |
+| 002 | Producto 2  | 20         | 20.00  |      |
+| 003 | Producto 3  | 30         | 30.00  |      |
+| 004 | Producto 4  | 40         | 40.00  |      |
+| 005 | Producto 5  | 50         | 50.00  |      |
+| 006 | Producto 6  | 60         | 60.00  |      |
+| 007 | Producto 7  | 70         | 70.00  |      |
+| 008 | Producto 8  | 80         | 80.00  |      |
+| 009 | Producto 9  | 90         | 90.00  |      |
+| 010 | Producto 10 | 100        | 100.00 |      |
 
 [ver csv](./csv/02%20Productos.csv)
 
 <p align="center">
-    <a href="./01 Getting Started.md">Regresar</a> |
+    <a href="./01%20Getting%20Started.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./03 Clientes.md">Siguiente</a>
+    <a href="./03%20Clientes.md">Siguiente</a>
 </p>

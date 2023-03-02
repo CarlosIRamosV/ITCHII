@@ -52,20 +52,16 @@ CREATE TABLE `empresax`.`factcprad`
 ## Contenido de la tabla:
 | numfac | idprod | cantidad | precio |
 |--------|--------|----------|--------|
-| 1      | 1      | 10       | 100.00 |
-| 1      | 2      | 20       | 200.00 |
-| 1      | 3      | 30       | 300.00 |
-| 2      | 1      | 10       | 100.00 |
-| 2      | 2      | 20       | 200.00 |
-| 2      | 3      | 30       | 300.00 |
-| 3      | 1      | 10       | 100.00 |
-| 3      | 2      | 20       | 200.00 |
-| 3      | 3      | 30       | 300.00 |
+| 001    | 001    | 1        | 100    |
+| 001    | 002    | 2        | 200    |
+| 002    | 001    | 1        | 100    |
+| 002    | 002    | 1        | 200    |
+| 002    | 003    | 1        | 300    |
 
 [ver csv](./csv/07%20Factura%20Compra%20Detalle.csv)
 
 <p align="center">
-    <a href="./06 Factura Compra Encabezado.md">Regresar</a> |
+    <a href="./05%20Factura%20Compra%20Encabezado.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./08 Factura Venta Encabezado.md">Siguiente</a>
+    <a href="./06%20Factura%20Compra%20Detalle.md">Siguiente</a>
 </p>

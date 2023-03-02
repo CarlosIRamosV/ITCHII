@@ -44,18 +44,15 @@ CREATE TABLE `empresax`.`factcprae`
 [ver sql](./sql/06%20Factura%20Compra%20Encabezado.sql)
 
 ## Contenido de la tabla:
-| numfac | fecha      | total   | tipopago | cveprov |
-|--------|------------|---------|----------|---------|
-| 1      | 2023-02-20 | 1000.00 | E        | 1       |
-| 2      | 2023-02-20 | 2000.00 | E        | 2       |
-| 3      | 2023-02-20 | 3000.00 | E        | 3       |
-| 4      | 2023-02-20 | 4000.00 | E        | 4       |
-| 5      | 2023-02-20 | 5000.00 | E        | 5       |
+| numfac | fecha      | total | tipopago | cveprov |
+|--------|------------|-------|----------|---------|
+| 001    | 2023-03-01 | 300   | E        | 1       |
+| 002    | 2023-03-01 | 600   | E        | 1       |
 
 [ver csv](./csv/06%20Factura%20Compra%20Encabezado.csv)
 
 <p align="center">
-    <a href="./05 Almacen.md">Regresar</a> |
+    <a href="./04%20Proveedores.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./07 Factura Compra Detalle.md">Siguiente</a>
+    <a href="./06%20Factura%20Compra%20Detalle.md">Siguiente</a>
 </p>

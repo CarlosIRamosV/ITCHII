@@ -4,7 +4,7 @@ CREATE TABLE `empresax`.`factcprae`
     `fecha`    DATE          NULL,
     `total`    DECIMAL(7, 2) NULL,
     `tipopago` VARCHAR(1)    NULL,
-    `cveprov`  INT(3)        NULL,
+    `cveprov`  INT(3)        NOT NULL,
     PRIMARY KEY (`numfac`, `cveprov`),
     INDEX `cveProv_idx` (`cveprov` ASC) VISIBLE,
     CONSTRAINT `cveProvFactCpraE`

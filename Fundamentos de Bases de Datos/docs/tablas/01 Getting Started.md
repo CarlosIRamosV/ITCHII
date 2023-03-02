@@ -10,5 +10,5 @@
 
 <p align="center">
     <a href="../README.md">Inicio</a> |
-    <a href="./02 Productos.md">Siguiente</a>
+    <a href="./02%20Productos.md">Siguiente</a>
 </p>

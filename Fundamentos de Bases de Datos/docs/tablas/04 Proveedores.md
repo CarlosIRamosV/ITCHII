@@ -57,7 +57,7 @@ CREATE TABLE `empresax`.`proveedores`
 [ver csv](./csv/04%20Proveedores.csv)
 
 <p align="center">
-    <a href="./03 Clientes.md">Regresar</a> |
+    <a href="./03%20Clientes.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./05 Almacen.md">Siguiente</a>
+    <a href="./05%20Factura%20Compra%20Encabezado.md">Siguiente</a>
 </p>

@@ -41,18 +41,18 @@ CREATE TABLE `empresax`.`clientes`
 [ver sql](./sql/03%20Clientes.sql)
 
 ## Contenido de la tabla:
-| id  | razonsocial | rfc  | direccion   | telefono  | email                |
-|-----|-------------|------|-------------|-----------|----------------------|
-| 001 | Cliente 1   | RFC1 | Direccion 1 | 123456789 | Cliente001@gmail.com |
-| 002 | Cliente 2   | RFC2 | Direccion 2 | 123456789 | Cliente002@gmail.com |
-| 003 | Cliente 3   | RFC3 | Direccion 3 | 123456789 | Cliente003@gmail.com |
-| 004 | Cliente 4   | RFC4 | Direccion 4 | 123456789 | Cliente004@gmail.com |
-| 005 | Cliente 5   | RFC5 | Direccion 5 | 123456789 | Cliente005@gmail.com |
+| id  | razonsocial | rfc  | direccion | telefono   | email              |
+|-----|-------------|------|-----------|------------|--------------------|
+| 1   | cliente1    | rfc1 | dir1      | 1234567890 | cliente1@gmail.com |
+| 2   | cliente2    | rfc2 | dir2      | 1234567890 | cliente2@gmail.com |
+| 3   | cliente3    | rfc3 | dir3      | 1234567890 | cliente3@gmail.com |
+| 4   | cliente4    | rfc4 | dir4      | 1234567890 | cliente4@gmail.com |
+| 5   | cliente5    | rfc5 | dir5      | 1234567890 | cliente5@gmail.com |
 
 [ver csv](./csv/03%20Clientes.csv)
 
 <p align="center">
-    <a href="./02 Productos.md">Regresar</a> |
+    <a href="./02%20Productos.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./04 Proveedores.md">Siguiente</a>
+    <a href="./04%20Proveedores.md">Siguiente</a>
 </p>

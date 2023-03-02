@@ -60,7 +60,7 @@ CREATE TABLE `empresax`.`factvtae`
 [ver csv](./csv/08%20Factura%20Venta%20Encabezado.csv)
 
 <p align="center">
-    <a href="./07 Factura Compra Detalle.md">Regresar</a> |
+    <a href="./07%20Almacen.md">Regresar</a> |
     <a href="../README.md">Inicio</a> |
-    <a href="./09 Factura Venta Detalle.md">Siguiente</a>
+    <a href="./09%20Factura%20Venta%20Detalle.md">Siguiente</a>
 </p>
